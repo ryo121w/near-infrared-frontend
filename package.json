@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "A Node.js app deployed on Heroku",
     "scripts": {
-      "heroku-postbuild": "cd frontend && npm install && npm run build",
-      "start": "cd frontend && HOST=0.0.0.0 react-app-rewired start"
+        "heroku-postbuild": "cd frontend && npm install && npm run build",
+        "start": "cd frontend && HOST=0.0.0.0 react-app-rewired start"
+    },
+    "devDependencies": {
+        "react-app-rewired": "^2.2.1"
     }
-  }
-  
+}
