@@ -4,7 +4,7 @@
     "description": "A Node.js app deployed on Heroku",
     "scripts": {
       "heroku-postbuild": "cd frontend && npm install && npm run build",
-      "start": "HOST=0.0.0.0 react-app-rewired start"
+      "start": "cd frontend && HOST=0.0.0.0 react-app-rewired start"
 
     }
   }
