@@ -1,12 +1,10 @@
+
 {
     "name": "my-heroku-app",
     "version": "1.0.0",
     "description": "A Node.js app deployed on Heroku",
     "scripts": {
         "heroku-postbuild": "cd frontend && npm install && npm run build",
-        "start": "cd frontend"
-    },
-    "devDependencies": {
-        "react-app-rewired": "^2.2.1"
+        "start": "cd frontend && npm start"
     }
 }
