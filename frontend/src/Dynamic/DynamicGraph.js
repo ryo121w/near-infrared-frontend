@@ -2,9 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import DynamicPlotlyChart from './Chart/DynamicPlotlyChart';
 import GoogleChartExample from './GoogleChartExample/ GoogleChartExample';
 import AdvancedSpectrumChart from './Chart/AdvancedSpectrumChart';
-import GaussianIntegral from './Chart/GaussianIntegral'
-import DynamicGraphNormal from './Chart/DynamicGraphNormal'
-import 'chart.js';
 import styles from './css/DynamicGraph.module.css';
 
 function DynamicGraph() {
